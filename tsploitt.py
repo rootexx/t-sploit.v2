@@ -7,6 +7,7 @@ def run_sqlinj():
 
 def run_phishing():
     print(f"{Fore.YELLOW}Phishing özelliği çalışıyor.{Style.RESET_ALL}")
+    os.system("bash phishing/shellphish.sh")
 
 def run_ddos():
     print(f"{Fore.RED}DDoS özelliği çalışıyor.{Style.RESET_ALL}")
