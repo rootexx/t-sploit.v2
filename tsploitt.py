@@ -3,14 +3,14 @@ from colorama import Fore, Style
 
 def run_sqlinj():
     print(f"{Fore.GREEN}SQL Injection özelliği çalışıyor.{Style.RESET_ALL}")
-    os.system("python sqlinj/sqlmap.py")
+    os.system("python3 sqlinj/sqlmap.py")
 
 def run_phishing():
     print(f"{Fore.YELLOW}Phishing özelliği çalışıyor.{Style.RESET_ALL}")
 
 def run_ddos():
     print(f"{Fore.RED}DDoS özelliği çalışıyor.{Style.RESET_ALL}")
-    os.system("python ddos.py")
+    os.system("python3 ddos.py")
 
 def main():
     print("Hoş geldiniz!")
