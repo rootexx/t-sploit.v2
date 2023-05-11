@@ -73,7 +73,7 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	Hammer-DDos Attack Tool v1.0
+	print (''' \033[92m	 Ddos tool v1.0
 	Tüm Sorumluluk Kullanicidadir Kesinlikle Sorumluluk Kabul Etmiyoruz.
 	Bu araç sadece sunucu testi için yazilmiştir. \n
 	başlatmak için : python3 hammer.py [-s] [-p] [-t]
